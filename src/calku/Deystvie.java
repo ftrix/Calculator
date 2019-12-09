@@ -5,10 +5,11 @@ import java.util.Scanner;
 
 public class Deystvie {
     public static double rez;
+    public static boolean s = Input.b;
     public static void znak() {
-        Input start = new Input();
-        start.chislo();
-        if (Input.b == false) {
+
+
+        if (s == false) {
             Rome chisloOne = new Rome();
             chisloOne.rome();
             double a = chisloOne.r;
@@ -30,7 +31,7 @@ public class Deystvie {
                 System.out.println("Не обманешь!");
             }
             System.out.println(rez);
-        } else if (Input.b == true) {
+        } else if (s == true) {
             Input chisloOne = new Input();
             chisloOne.chislo();
             double a = chisloOne.a;

@@ -10,8 +10,9 @@ public class Rome {
 
     public static void rome (){
         try {
-
-        ra = Input.c;
+        Input chisloOne = new Input();
+        chisloOne.chislo();
+        ra = chisloOne.c;
         HashMap<String, Integer> romecifr = new HashMap<>();
         romecifr.put("I",1);
         romecifr.put("II",2);
