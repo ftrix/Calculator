@@ -1,7 +1,6 @@
 package calku;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 public class Input {
     public static int a;
     public static String c;
@@ -19,12 +18,7 @@ public class Input {
                 c = input;
                 b = false;
             }
-
-
-
     }
-
-
 }
 
 
