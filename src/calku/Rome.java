@@ -5,14 +5,9 @@ import java.util.HashMap;
 public class Rome {
     public static String ra;
     public static int r;
-
-
-
     public static void rome (){
         try {
-        Input chisloOne = new Input();
-        chisloOne.chislo();
-        ra = chisloOne.c;
+        ra = Input.c;
         HashMap<String, Integer> romecifr = new HashMap<>();
         romecifr.put("I",1);
         romecifr.put("II",2);
