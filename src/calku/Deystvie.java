@@ -2,7 +2,6 @@ package calku;
 import calku.Rome;
 import calku.Input;
 import java.util.Scanner;
-
 public class Deystvie {
     public static double rez;
     public static boolean s;
@@ -22,7 +21,7 @@ public class Deystvie {
         Rome chisloTw = new Rome();
         chisloTw.rome();
         double d = chisloTw.r;
-        if (s == false && s == ss) {
+        if (s == false && s == ss && Rome.m == true) {
             System.out.println("Выбери действие \n 1 - умножение \n 2 - деление \n 3 - сложение \n 4 - вычитание");
             Scanner in = new Scanner(System.in);
             int znak = in.nextInt();
@@ -34,9 +33,7 @@ public class Deystvie {
                 rez = c + d;
             } else if (znak == 4) {
                 rez = c - d;
-            } else {
-                System.out.println("Не обманешь!");
-            }
+            } else {}
             System.out.println(rez);
         } else if (s == true && s == ss) {
             System.out.println("Выбери действие \n 1 - умножение \n 2 - деление \n 3 - сложение \n 4 - вычитание");
@@ -56,7 +53,7 @@ public class Deystvie {
             System.out.println(rez);
         }
         else {
-            System.out.println("Одинаковые цифры!");
+            System.out.println("Не хитрить");
         }
     }
 }
