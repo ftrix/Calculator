@@ -1,4 +1,4 @@
-package calkulator;
+package calculator;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -53,7 +53,7 @@ public class Counting {
 
             if (operation == 1) {
                 result = a * b;
-            } else if (operation == 2) {
+            } else if (operation == 2 && b != 0) {
                 result = a / b;
             } else if (operation == 3) {
                 result = a + b;

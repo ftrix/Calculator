@@ -1,4 +1,4 @@
-package calkulator;
+package calculator;
 import java.util.HashMap;
 
 public class RomeValues {
